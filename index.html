@@ -11,31 +11,31 @@
     <section id="landing-page">
         <nav>
             <figure>
-                <img id="personal-logo" src="./assets/my logo.svg" alt="Personal Logo">
+                <img id="personal-logo" src="./assets\assets/logo.svg" alt="Personal Logo">
             </figure>
             <ul class="nav__link--list">
-                <li class="nav__link">
+                <li class="nav__link click">
                     <a href="#" class="
                         nav__link--anchor
                         link__hover-effect
                         link__hover-effect--black
                     ">About</a>
                 </li>
-                <li class="nav__link">
+                <li class="nav__link click">
                     <a href="#" class="
                         nav__link--anchor
                         link__hover-effect
                         link__hover-effect--black
                     ">Projects</a>
                 </li>
-                <li class="nav__link">
+                <li class="nav__link click">
                     <a href="#" class="
                         nav__link--anchor
                         link__hover-effect
                         link__hover-effect--black
                     ">Contacts</a>
                 </li>
-                <li class="nav__link">
+                <li class="nav__link click">
                     <a href="#" class="
                         nav__link--anchor
                         link__hover-effect
@@ -53,18 +53,61 @@
                     Here's a bit more <b class="orange">about me</b>.
                 </p>
                 <div class="social__list">
-                    <a href="" class="social__link">
+                    <a href="www.linkedin.com/in/nick-rihel-365b7b230" class="social__link click">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="" class="social__link">
+                    <a href="https://github.com/nrihel" class="social__link click">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="" class="social__link">
+                    <a href="assets\assets/David Bragg Resume.pdf" class="social__link click">
                         <i class="fas fa-file-pdf"></i>
                     </a>
                 </div>
             </div>
         </header>
-    
+        <button class="mail__btn click">
+            <i class="fas fa-envelope"></i>
+        </button>
+        <a href="#projects" class="scroll">
+            <div class="scroll__icon click"></div>
+        </a>
+    </section id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">
+                    Here are some of my <span class="orange">projects</span>
+                </h1>
+                <ul class="project__list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/assets/blinker mockup.png" class="project__img">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Car Sales Projects
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    HTML, CSS, JavaScript, Vue, Vuex
+                                </h4>
+                                <p class="project__description--para">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo,
+                                    Lectus Faucibus augue. Fusce volutpat iaculis and here are a bunch of greek words
+                                    that dont really make sense to me because I dont understand greek.
+                                </p>
+                                <div class="project__descrtiption--links">
+                                    <a href="#" class="project__description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
